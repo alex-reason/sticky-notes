@@ -1,0 +1,92 @@
+@import "./variables.scss";
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font;
+    background-color: $white;
+}
+
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.page-title {
+    font-size: 1.5rem;
+    color: $black;
+    display: inline-block;
+}
+
+.btn {
+    background-color: #fff;
+    padding: 0.5rem 0.8rem;
+    border-radius: 4px;
+    color: $black;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid $black;
+    font-family: $font;
+
+    &-alt {
+        background-color: $primary;
+        color: $black;
+        padding: 0.3rem;
+        font-size: .7rem;
+
+        &-reverse {
+            background-color: $white;
+            color: $black;
+        }
+    }
+
+    &:hover {
+        background-color: $black;
+        color: $white;
+    }
+}
+
+label {
+    display: block;
+    margin: 24px auto;
+}
+label span {
+    display: block;
+    margin-bottom: 6px;
+}
+input,
+textarea {
+    padding: 8px 6px;
+    font-size: 1em;
+    color: #777;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+textarea {
+    min-height: 160px;
+}
+.error {
+    color: red;
+    background: pink;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px 0;
+}

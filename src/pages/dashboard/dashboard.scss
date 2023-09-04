@@ -1,0 +1,40 @@
+@import "../../variables.scss";
+
+
+.dashboard {
+    padding-top: 4rem;
+}
+.project-filter {
+    margin: 1.5rem auto;
+
+    nav {
+        display: flex;
+        padding: 1rem;
+        background-color: #fff;
+        border-radius: 4px;
+    }
+
+    button {
+        background: transparent;
+        border: 0;
+        border-right: 1px solid $grey-light;
+        font-family: inherit;
+        color: $grey;
+        cursor: pointer;
+        padding: 0 1rem;
+        text-align: center;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &:last-of-type {
+            border-right: 0;
+        }
+    }
+
+    .active {
+        color: $primary-darker;
+        font-weight: 700;
+    }
+}
