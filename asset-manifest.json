@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sticky-notes/static/css/main.ec95da6a.css",
+    "main.js": "/sticky-notes/static/js/main.7611fe2a.js",
+    "static/media/calendar.png": "/sticky-notes/static/media/calendar.93036864a0cd76ffd45b.png",
+    "static/media/avatar.png": "/sticky-notes/static/media/avatar.78eb0af9363ca76f1a78.png",
+    "index.html": "/sticky-notes/index.html",
+    "static/media/dashboard-icon.svg": "/sticky-notes/static/media/dashboard-icon.7595b18d999143b5e6a7b6a53d8f217d.svg",
+    "static/media/add-icon.svg": "/sticky-notes/static/media/add-icon.a389833c058378b33fac346d2198d5c7.svg",
+    "main.ec95da6a.css.map": "/sticky-notes/static/css/main.ec95da6a.css.map",
+    "main.7611fe2a.js.map": "/sticky-notes/static/js/main.7611fe2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec95da6a.css",
+    "static/js/main.7611fe2a.js"
+  ]
+}
